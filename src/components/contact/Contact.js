@@ -64,7 +64,7 @@ export default function Contact() {
             </span>
             <span className="smicon">
               <a
-                href="https://www.google.com/search?q=commercial+kitchen+cleaning+vineland&rlz=1C1CHBF_enUS907US907&oq=commercial+kitchen+cleaning+vineland&aqs=chrome..69i57j33i22i29i30.6096j0j7&sourceid=chrome&ie=UTF-8#lrd=0x89c72da079cf376d:0x3deca7a2a23ce0c3,3,,,"
+                href="https://search.google.com/local/writereview?placeid=ChIJbTfPeaAtx4kRw-A8oqKn7D0"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -77,7 +77,7 @@ export default function Contact() {
               </a>
               <span className="follow">
                 <a
-                  href="https://www.google.com"
+                  href="https://search.google.com/local/writereview?placeid=ChIJbTfPeaAtx4kRw-A8oqKn7D0"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
