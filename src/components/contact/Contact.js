@@ -54,7 +54,7 @@ export default function Contact() {
               </a>
               <span className="follow">
                 <a
-                  href="https://www.facebook.com/On-Point-Lawn-Co-110444680734696/?ref=page_internal"
+                  href="https://www.facebook.com/CKCPowerwash"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
