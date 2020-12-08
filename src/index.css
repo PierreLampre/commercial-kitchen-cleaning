@@ -1,0 +1,90 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #4d7298;
+}
+
+.App{
+    display: grid;
+    grid-template-areas: "nav"
+                         "hero"
+                         "about"
+                         "services"
+                         "contact";
+}
+
+#navbar-box{
+    grid-area: "nav";
+}
+
+#hero-box{
+    grid-area: "hero"
+}
+
+#about-anchor{
+    padding-top: 190px;
+    margin-top: -190px;
+}
+
+#about-anchor-2{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+#about-box{
+    grid-area: "about";
+}
+
+#services-box{
+    grid-area: "services";
+}
+
+#services-anchor{
+    padding-top: 187px;
+    margin-top: -187px;
+}
+
+#services-anchor-2{
+    padding-top: 33px;
+    margin-top: -33px;
+    background-color: white;
+}
+
+
+#contact-box{
+    grid-area: "contact";
+}
+
+@media screen and (max-width: 501px) {
+    
+    #about-anchor{
+        padding-top: 140px;
+        margin-top: -140px;
+    }
+    
+    #services-anchor{
+        padding-top: 160px;
+        margin-top: -160px;
+    }
+
+    #about-anchor-2{
+        padding-top: 150px;
+        margin-top: -150px;
+    }
+    
+    #services-anchor-2{
+        padding-top: 80px;
+        margin-top: -80px;
+    }
+    
+    #contact-anchor{
+        padding-top: 160px;
+        margin-top: -160px;
+    }
+
+    #contact-anchor-2{
+        padding-top: 100px;
+        margin-top: -100px;
+    }
+}

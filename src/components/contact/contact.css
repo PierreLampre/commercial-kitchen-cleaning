@@ -1,0 +1,237 @@
+#contact{
+    display: grid;
+    grid-template-rows: 1fr .1fr;
+    margin-bottom: -17px;
+    background-image: url("./kitch5.jpg");
+    background-size: cover;
+}
+
+#form-and-info-box{
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-template-columns: 1fr 1fr;
+}
+
+#form{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#info{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    margin-top: 24px;
+}
+
+#num-and-add{
+    margin-top: 65px;
+}
+
+.contact-info{
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    margin: 16px 0px 36px 0px;
+    align-items: center;
+}
+
+.con-icon{
+    width: 40px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 8px;
+    background-color: white;
+    border: none;
+    border-radius: 36px;
+    transition: all 0.4s ease;
+}
+
+.actual-info{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 2px;
+    margin-left: -40px;
+}
+
+.actual-info > a:link, .actual-info > a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.actual-info > a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#soc-med-icons{
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: .15fr .15fr;
+}
+
+.smicon{
+    display: grid;
+    grid-template-rows: 1fr .2fr;
+}
+
+.smicon:nth-of-type(1){
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.smicon:nth-of-type(2){
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.sm-icon-img{
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    transition: all 0.4s ease;
+}
+
+.sm-icon-img:hover, .con-icon:hover{
+    background-color: #EF6351;
+}
+
+#fbicon{
+    width: 48px;
+}
+
+#gicon{
+    width: 43px;
+    height: 44px;
+    padding: 2.2px;
+    padding-bottom: 2.4px;
+    border-radius: 8px;
+}
+
+.follow{
+    margin: 0px 14px 40px 0px;
+}
+
+.follow > a:link, .follow > a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.follow > a:hover{
+    text-decoration: underline;
+}
+
+#address{
+    margin-top: -50px;
+}
+
+#address > p:nth-of-type(1){
+    margin-bottom: 12px;
+}
+
+#footer{
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #4d7298;
+    border-top: 6px solid #C0C0C0;
+    font-size: 12px;
+    color: #fff;
+}
+
+#mailto-box{
+    margin: 0 auto;
+    padding-top: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#mailto-box > a:link, #footer > a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+#mailto-box > a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#mailto-wm{
+    margin: 0px 4px;
+}
+
+@media screen and (max-width: 1235px) {
+
+    .actual-info{
+        margin-left: 20px;    
+    }
+
+    .smicon:nth-of-type(2){
+        margin-left: 48px;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+
+    #contact{
+        background-image: none;
+        background-color: #000080;
+    }
+    
+}
+
+@media screen and (max-width: 853px) {
+
+    #contact{
+        grid-template-rows: .08fr .02fr .01fr;
+        grid-template-columns: 1fr;
+    }
+
+    #form{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    #form-and-info-box{
+        grid-template-columns: 1fr;
+    }
+
+    #info{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-starT: 1;
+        grid-column-end: 2;
+        font-family: 'Noto Sans', sans-serif;
+        color: white;
+        display: grid;
+        justify-self: center;
+        justify-items: center;
+    }
+
+    #footer{
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    #mailto-box{
+        margin-bottom: 12px;
+    }
+
+    #num-and-add{
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width: 501px) {
+
+    #mailto-box{
+        width: 325px;
+        display: flex;
+        justify-content: center;
+    }
+
+}   
